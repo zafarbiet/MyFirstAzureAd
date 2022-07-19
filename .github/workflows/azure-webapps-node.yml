@@ -50,7 +50,7 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: node-app
-        path: angular11-sample-app
+        path: angular11-sample-app/
 
     - name: 'Deploy to Azure WebApp'
       id: deploy-to-webapp 
